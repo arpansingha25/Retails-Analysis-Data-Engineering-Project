@@ -60,7 +60,7 @@ ABC-Retail-Data-Pipeline/
 
 ## Dashboard Preview
 
-![Dashboard](PowerBI/Dashboard_Screenshot.png)
+![dashboard](Executive Summary.png)
 
 ---
 

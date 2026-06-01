@@ -23,7 +23,7 @@ Excel Source Files
 │  ┌──────────────────────────────────────────────┐   │
 │  │  Lakehouse — retail_lakehouse (OneLake)      │   │
 │  │                                              │   │
-│  │  Files/bronze/   ← raw Excel uploads        │   │
+│  │  Files/bronze/   ← raw Excel uploads         │   │
 │  │  Tables/         ← managed Delta tables      │   │
 │  │    retail_silver         (cleaned rows)      │   │
 │  │    gold_revenue_by_category                  │   │
@@ -33,19 +33,19 @@ Excel Source Files
 │  │    gold_revenue_by_channel                   │   │
 │  └──────────────────────────────────────────────┘   │
 │                      │                              │
-│                       ▼                              │
+│                      ▼                              │
 │  ┌──────────────────────────────────────────────┐   │
 │  │  Fabric Notebook — retail_transformation     │   │
 │  │  PySpark transformation pipeline             │   │
 │  └──────────────────────────────────────────────┘   │
 │                      │                              │
-│                       ▼                              │
+│                      ▼                              │
 │  ┌──────────────────────────────────────────────┐   │
 │  │  SQL Analytics Endpoint                      │   │
 │  │  Auto-generated · queryable via T-SQL        │   │
 │  └──────────────────────────────────────────────┘   │
 │                      │                              │
-│                       ▼                              │
+│                      ▼                              │
 │  ┌──────────────────────────────────────────────┐   │
 │  │  Power BI Report — DirectLake mode           │   │
 │  │  4 dashboard pages · published to workspace  │   │

@@ -21,7 +21,7 @@ def run_pipeline() -> Path:
 
     try:
         import pandas as pd  # type: ignore
-    except Exception:
+    except ImportError:
         write_empty_output(output_path)
         return output_path
 
